@@ -2,9 +2,9 @@
 
 import tensorflow as tf
 
-from tensorflow.keras.models import Sequential 
-from tensorflow.keras.layers import Conv1D, BatchNormalization, MaxPooling1D, Flatten, Dense, Activation
-from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.models import Sequential #type: ignore
+from tensorflow.keras.layers import Conv1D, BatchNormalization, MaxPooling1D, Flatten, Dense, Activation #type: ignore
+from tensorflow.keras.optimizers import Adam #type: ignore
 
 input_length = 1000
 num_channels = 1
